@@ -22,3 +22,21 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 } */
+ /*!!!!!!!!!!!!!Container!!!!!!!!!!!!!!! */
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 16px;
+  padding-right:16px;
+}
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 704px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .container {
+    max-width: 1320px;
+  }
+}
