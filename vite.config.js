@@ -8,6 +8,7 @@ export default defineConfig({
     global: {},
   },
   root: 'src',
+  base: "/Minimal/",
   build: {
     rollupOptions: {
       input: glob.sync('./src/*.html'),
