@@ -1,0 +1,14 @@
+@import './base/reset';
+@import './abstracts/variables';
+@import './abstracts/mixins';
+@import './abstracts/placeholders';
+@import './base/typography';
+@import './components/container';
+@import './layout/header';
+@import './components/hero';
+@import './components/about';
+@import './components/products';
+@import'./components/bestsellers';
+@import'./components/clients';
+@import './components/newsletter';
+@import './layout/footer';
