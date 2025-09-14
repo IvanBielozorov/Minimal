@@ -4,7 +4,6 @@
   | default @import url()
   |============================
 */
- @import url('./reset.css');
 /*@import url('./vite-promo.css');
 
 :root {
@@ -22,51 +21,15 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 } */
- /* !!!!!!!!!!!!!!!!!!!!!!!MINIMAL PROJECTS STYLES!!!!!!!!!!!!!!!!!!!!!!! */
-/* !!!!!!!!!!!!!!!Variables!!!!!!!!!!!!!! */
-:root {
-  --font-family: "Roboto", sans-serif;
-  --second-family: "Playfair Display", sans-serif;
-	--light-blue: #f7faff;
-	--blue-font: #0a224a;
-	--white: #fff;
-	--grey: #d9d9d9;
-	--dark-grey: #b6b6b6;
-}
-/* !!!!!!!!!!!!Typography !!!!!!!!!!!!!!!!*/
-body {
-  font-family: "Roboto";
-}
- /*!!!!!!!!!!!!!Container!!!!!!!!!!!!!!! */
-.container {
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 16px;
-  padding-right:16px;
-}
-@media screen and (min-width: 768px) {
-  .container {
-    max-width: 704px;
-  }
-}
-@media screen and (min-width: 1440px) {
-  .container {
-    max-width: 1320px;
-  }
-}
-/* !!!!!!!!!!!!HEADER STYLES!!!!!!!!!!!! */
-
-/* !!!!!!!!!!!!HERO SECTION STYLES!!!!!!!!!!!! */
-
-/* !!!!!!!!!!!!ABOUT SECTION STYLES!!!!!!!!!!!! */
-
-/* !!!!!!!!!!!!CLIENTS SECTION STYLES!!!!!!!!!!!! */
-
-/* !!!!!!!!!!!!PRODUCTS SECTION STYLES!!!!!!!!!!!! */
-
-/* !!!!!!!!!!!!BESTSELLERS SECTION STYLES!!!!!!!!!!!! */
-
-/* !!!!!!!!!!!!NEWSLETTER SECTION STYLES!!!!!!!!!!!! */
-
-/* !!!!!!!!!!!!FOOTER STYLES!!!!!!!!!!!! */
+@import url('./reset.css');
+@import url('./variables.css');
+@import url('./typography.css');
+@import url('./container.css');
+@import url('./header.css');
+@import url('./hero.css');
+@import url('./about.css');
+@import url('./products.css');
+@import url('./bestsellers.css');
+@import url('./clients.css');
+@import url('./newsletter.css');
+@import url('./footer.css');
