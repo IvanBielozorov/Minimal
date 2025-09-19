@@ -1,0 +1,44 @@
+.hero {
+  padding-top: 140px;
+  padding-bottom: 313px;
+}
+@media screen and (min-width: 768px) {
+  .hero {
+    padding-top: 64px;
+    padding-bottom: 100px;
+  }
+}
+.hero__title {
+  font-family: var(--second-family);
+  font-size: 28px;
+  text-transform: uppercase;
+}
+@media screen and (min-width: 768px) {
+  .hero__title {
+    font-size: 50px;
+  }
+}
+.hero__left-text {
+  font-size: 16px;
+}
+@media screen and (min-width: 768px) {
+  .hero__left-text {
+    font-size: 18px;
+  }
+}
+.hero__left-button {
+  padding: 12px 65px;
+  width: 224px;
+  height: 48px;
+  font-size: 16px;
+  color: var(--white);
+  background-color: var(--blue-font);
+}
+@media screen and (min-width: 768px) {
+  .hero__left-button {
+    padding: 17px 65px;
+    height: 50px;
+    font-size: 18px;
+    line-height: 133%;
+  }
+}
