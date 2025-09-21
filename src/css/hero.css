@@ -40,5 +40,8 @@
     height: 50px;
     font-size: 18px;
     line-height: 133%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
