@@ -35,6 +35,16 @@
   text-transform: uppercase;
   font-weight: 400;
 }
+.prices__hover {
+  display: none;
+}
+.prices__item:hover .prices__hover,
+.prices__item:focus .prices__hover {
+  display: block;
+  width: 40px;
+  height: 3px;
+  background-color: var(--blue-font);
+}
 @media screen and (min-width: 768px) {
   .prices__title {
     font-size: 32px;
