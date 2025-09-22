@@ -30,6 +30,10 @@
     max-width: 1096px;
   }
 }
+.prices__item-container {
+  display: flex;
+  align-items: center;
+}
 .prices__title {
   font-size: 28px;
   text-transform: uppercase;
@@ -37,13 +41,20 @@
 }
 .prices__hover {
   display: none;
+  margin-right: 14px;
+  width: 40px;
+  height: 3px;
+  background-color: var(--blue-font);
+}
+@media screen and (min-width: 768px) {
+  .prices__hover {
+    width: 50px;
+    margin-right: 30px;
+  }
 }
 .prices__item:hover .prices__hover,
 .prices__item:focus .prices__hover {
   display: block;
-  width: 40px;
-  height: 3px;
-  background-color: var(--blue-font);
 }
 @media screen and (min-width: 768px) {
   .prices__title {
