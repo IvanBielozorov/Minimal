@@ -1,0 +1,42 @@
+.header{
+  padding: 36px 0;
+  background-color: #F7FAFF;
+}
+.header-position {
+  display: flex;
+}
+.logo{
+  margin-right: 210px;
+}
+@media screen and (min-width:768px){
+  .logo{
+    margin-right: 535px;
+  }
+}
+@media screen and (min-width:1200px){
+  .logo{
+    margin-right: 570px;
+  }
+}
+.nav{
+  display: none;
+}
+@media screen and (min-width:1200px){
+  .nav{
+    display: block;
+  }
+  .navigation{
+    display: flex;
+    column-gap: 30px;
+  }
+}
+.navigation__link {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: var(--blue-font);
+}
+.icon-burger{
+  stroke: black;
+}
