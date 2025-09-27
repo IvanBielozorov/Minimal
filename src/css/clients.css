@@ -1,0 +1,49 @@
+.rewiews {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: var(--light-blue);
+}
+.title-rewiew {
+font-family: var(--font-family);
+font-weight: 400;
+font-size: 32px;
+line-height: 1.41;
+text-transform: uppercase;
+color: var(--blue-font);
+text-align: center;
+margin-bottom: 30px;
+}
+.list-rewiews {
+display: flex;
+justify-content: center;
+align-items: center;
+column-gap: 24px;
+}
+.names-rewiew {
+font-family: var(--font-family);
+font-weight: 700;
+font-size: 20px;
+line-height: 225%;
+text-transform: uppercase;
+color: var(--blue-font);
+}
+.span-rewiew {
+font-family: var(--font-family);
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+text-align: center;
+color: var(--blue-font);
+}
+.text-rewiew {
+font-family: var(--font-family);
+font-weight: 400;
+font-size: 18px;
+line-height: 150%;
+color: var(--blue-font);
+}
+.item-rewiews {
+width: 424px;
+padding: 32px;
+background-color: white;
+}

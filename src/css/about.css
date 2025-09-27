@@ -1,0 +1,60 @@
+.meubels-title {
+font-family: var(--font-family);
+font-weight: 400;
+font-size: 32px;
+line-height: 141%;
+text-transform: uppercase;
+color: var(--blue-font);
+width: 622px;
+margin-top: 30px;
+margin-bottom: 30px;
+}
+.meubels-text {
+font-family: var(--font-family);
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+color: var(--blue-font);
+width: 123px;
+}
+.meubels-text1 {
+font-family: var(--font-family);
+font-weight: 400;
+font-size: 18px;
+line-height: 150%;
+color: var(--blue-font);
+width: 622px;
+}
+.meubels-text2 {
+font-family: var(--font-family);
+font-weight: 400;
+font-size: 18px;
+line-height: 150%;
+text-align: center;
+color: var(--blue-font);
+margin-top: 23px;
+}
+.meubels-list {
+display: flex;
+justify-content: center;
+align-items: center;
+width: 622px;
+column-gap: 55px;
+margin-top: 30px;
+}
+.meubels-number {
+font-family: var(--font-family);
+font-weight: 400;
+font-size: 50px;
+line-height: 150%;
+text-transform: uppercase;
+text-align: center;
+color: var(--blue-font);
+}
+.meubels-item {
+width: 170px;
+}
+.meubels-sofa {
+width: 536px;
+height: 540px;
+}
