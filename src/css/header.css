@@ -1,6 +1,6 @@
 .header{
   padding: 36px 0;
-  background-color: #F7FAFF;
+  background-color: var(--light-blue);
 }
 .header-position {
   display: flex;
@@ -13,7 +13,7 @@
     margin-right: 535px;
   }
 }
-@media screen and (min-width:1200px){
+@media screen and (min-width:1440px){
   .logo{
     margin-right: 570px;
   }
@@ -21,7 +21,7 @@
 .nav{
   display: none;
 }
-@media screen and (min-width:1200px){
+@media screen and (min-width:1440px){
   .nav{
     display: block;
   }
@@ -31,12 +31,13 @@
   }
 }
 .navigation__link {
-  font-family: var(--font-family);
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 150%;
   color: var(--blue-font);
 }
 .icon-burger{
   stroke: black;
+}
+@media screen and (min-width: 1440px) {
+  .icon-burger {
+    display: none;
+  }
 }
