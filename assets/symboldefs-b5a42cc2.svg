@@ -9,5 +9,15 @@
 <symbol id="icon-facebook" viewBox="0 0 32 32">
 <path d="M31.294 16c0-3.025-0.897-5.982-2.578-8.497s-4.069-4.475-6.864-5.633c-2.795-1.158-5.87-1.46-8.837-0.87s-5.692 2.047-7.831 4.186c-2.139 2.139-3.596 4.864-4.186 7.831s-0.287 6.042 0.87 8.837c1.158 2.795 3.118 5.183 5.633 6.864s5.472 2.578 8.497 2.578c4.055-0.004 7.943-1.616 10.81-4.484s4.48-6.755 4.484-10.81zM17.176 28.882v-9.353h3.529c0.312 0 0.611-0.124 0.832-0.345s0.345-0.52 0.345-0.832c0-0.312-0.124-0.611-0.345-0.832s-0.52-0.345-0.832-0.345h-3.529v-3.529c0-0.624 0.248-1.223 0.689-1.664s1.040-0.689 1.664-0.689h2.353c0.312 0 0.611-0.124 0.832-0.345s0.345-0.52 0.345-0.832c0-0.312-0.124-0.611-0.345-0.832s-0.52-0.345-0.832-0.345h-2.353c-1.247 0.004-2.442 0.501-3.323 1.383s-1.379 2.076-1.383 3.323v3.529h-3.529c-0.312 0-0.611 0.124-0.832 0.345s-0.345 0.52-0.345 0.832c0 0.312 0.124 0.611 0.345 0.832s0.52 0.345 0.832 0.345h3.529v9.353c-3.317-0.303-6.389-1.872-8.577-4.382s-3.326-5.767-3.174-9.094c0.152-3.327 1.58-6.467 3.988-8.768s5.61-3.585 8.94-3.585c3.33 0 6.532 1.284 8.94 3.585s3.836 5.441 3.988 8.768c0.152 3.327-0.985 6.584-3.174 9.094s-5.261 4.080-8.577 4.382z"></path>
 </symbol>
+<symbol id="icon-cross" viewBox="0 0 32 32">
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.4" d="M24 8l-16 16"></path>
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.4" d="M8 8l16 16"></path>
+</symbol>
+<symbol id="icon-burger" viewBox="0 0 32 32">
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.4" d="M28 13.333h-24"></path>
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.4" d="M28 8h-24"></path>
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.4" d="M28 18.667h-24"></path>
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.4" d="M28 24h-24"></path>
+</symbol>
 </defs>
 </svg>
