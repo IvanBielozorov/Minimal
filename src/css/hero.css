@@ -4,7 +4,13 @@
   background-image: url("../img/mobile/hero-bg.jpg");
   background-size: 375px 717px;
   background-repeat: no-repeat;
+  background-position: top;
 }
+ @media (min-device-pixel-ratio: 2x), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .hero {
+        background-image: url("../img/mobile/hero-bg@mobile2x.jpg");
+    }
+ }
 @media screen and (min-width: 768px) {
   .hero {
     padding-top: 64px;
@@ -15,14 +21,19 @@
   font-family: var(--second-family);
   font-size: 28px;
   text-transform: uppercase;
+  margin-bottom: 14px;
 }
 @media screen and (min-width: 768px) {
   .hero__title {
     font-size: 50px;
   }
 }
+.hero__picture {
+  display: none;
+}
 .hero__left-text {
   font-size: 16px;
+  margin-bottom: 28px;
 }
 @media screen and (min-width: 768px) {
   .hero__left-text {
