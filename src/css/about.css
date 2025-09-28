@@ -58,3 +58,9 @@ width: 170px;
 width: 536px;
 height: 540px;
 }
+.section-position {
+    display: flex;
+}
+.right {
+    padding-left: 78px;
+}
