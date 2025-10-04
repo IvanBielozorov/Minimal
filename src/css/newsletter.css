@@ -11,7 +11,13 @@
 @media screen and (min-width: 1440px) {
   .newsletter {
     padding-bottom: 86px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .newsletter-position {
     display: flex;
+    margin: 0 auto;
+    width: 1096px;
   }
 }
 @media screen and (min-width: 1440px) {
@@ -45,16 +51,17 @@
   color: var(--blue-font);
   margin-bottom: 30px;
 }
-.newsletter__form{
-    display: flex;
-    flex-direction: column;
-}
 @media screen and (min-width: 768px) {
   .newsletter__text {
     font-size: 18px;
     line-height: 1.5;
   }
 }
+.newsletter__form {
+  display: flex;
+  flex-direction: column;
+}
+
 .newsletter__label:last-child {
   display: flex;
   align-items: center;
