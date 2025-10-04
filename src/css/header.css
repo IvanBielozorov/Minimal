@@ -1,21 +1,28 @@
 .header {
   padding: 36px 0;
-  background-color: #f7faff;
-  position: relative;
+  background-color: var(--light-blue);
 }
 .header-position {
   display: flex;
 }
-@media screen and (min-width: 1440px) {
-  .logo {
-    margin-right: 572px;
+.logo{
+  margin-right: 210px;
+}
+@media screen and (min-width:768px){
+  .logo{
+    margin-right: 535px;
+  }
+}
+@media screen and (min-width:1440px){
+  .logo{
+    margin-right: 570px;
   }
 }
 .nav {
   display: none;
 }
-@media screen and (min-width: 1200px) {
-  .nav {
+@media screen and (min-width:1440px){
+  .nav{
     display: block;
   }
   .navigation {
@@ -24,22 +31,10 @@
   }
 }
 .navigation__link {
-  font-family: var(--font-family);
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 150%;
   color: var(--blue-font);
 }
 .icon-burger {
   stroke: black;
-  position: absolute;
-  top: 28px;
-  right: 16px;
-}
-@media screen and (min-width: 768px) {
-  .icon-burger {
-    right: 27px;
-  }
 }
 @media screen and (min-width: 1440px) {
   .icon-burger {
