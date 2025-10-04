@@ -1,4 +1,4 @@
-.header{
+.header {
   padding: 36px 0;
   background-color: var(--light-blue);
 }
@@ -18,14 +18,14 @@
     margin-right: 570px;
   }
 }
-.nav{
+.nav {
   display: none;
 }
 @media screen and (min-width:1440px){
   .nav{
     display: block;
   }
-  .navigation{
+  .navigation {
     display: flex;
     column-gap: 30px;
   }
@@ -33,7 +33,7 @@
 .navigation__link {
   color: var(--blue-font);
 }
-.icon-burger{
+.icon-burger {
   stroke: black;
 }
 @media screen and (min-width: 1440px) {
