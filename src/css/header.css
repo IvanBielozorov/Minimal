@@ -1,31 +1,24 @@
-.header{
+.header {
   padding: 36px 0;
-  background-color: #F7FAFF;
+  background-color: #f7faff;
+  position: relative;
 }
 .header-position {
   display: flex;
 }
-.logo{
-  margin-right: 210px;
-}
-@media screen and (min-width:768px){
-  .logo{
-    margin-right: 535px;
+@media screen and (min-width: 1440px) {
+  .logo {
+    margin-right: 572px;
   }
 }
-@media screen and (min-width:1200px){
-  .logo{
-    margin-right: 570px;
-  }
-}
-.nav{
+.nav {
   display: none;
 }
-@media screen and (min-width:1200px){
-  .nav{
+@media screen and (min-width: 1200px) {
+  .nav {
     display: block;
   }
-  .navigation{
+  .navigation {
     display: flex;
     column-gap: 30px;
   }
@@ -37,6 +30,19 @@
   line-height: 150%;
   color: var(--blue-font);
 }
-.icon-burger{
+.icon-burger {
   stroke: black;
+  position: absolute;
+  top: 28px;
+  right: 16px;
+}
+@media screen and (min-width: 768px) {
+  .icon-burger {
+    right: 27px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .icon-burger {
+    display: none;
+  }
 }
