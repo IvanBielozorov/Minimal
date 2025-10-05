@@ -16,13 +16,26 @@
 @media screen and (min-width: 1200px) {
   .newsletter-position {
     display: flex;
-    margin: 0 auto;
+    margin-left: auto;
     width: 1096px;
   }
 }
 @media screen and (min-width: 1440px) {
   .newsletter-position {
     display: flex;
+  }
+}
+.newsletter__wrapper {
+  margin-bottom: 30px;
+}
+@media screen and (min-width: 768px) {
+  .newsletter__wrapper {
+    margin-bottom: 64px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .newsletter__wrapper {
+    margin-bottom: 30px;
   }
 }
 .newsletter__title {
@@ -74,7 +87,7 @@
 .newsletter__input {
   border: 1px solid var(--dark-grey);
   padding: 11px 20px;
-  width: 343px;
+  width: 311px;
   height: 50px;
   margin-bottom: 20px;
 }
