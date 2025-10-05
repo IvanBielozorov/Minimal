@@ -16,6 +16,9 @@
     margin-top: 48px;
   }
 }
+.icon-logo1{
+  fill: white;
+}
 .left {
   display: flex;
   flex-direction: column;
