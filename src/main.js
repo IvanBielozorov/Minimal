@@ -1,3 +1,5 @@
+import "./js/mobile";
+
 document.addEventListener('DOMContentLoaded', async () => {
   const loadElements = document.querySelectorAll('load[src]');
 
