@@ -4,6 +4,7 @@
 }
 .header-position {
   display: flex;
+  position: relative;
 }
 @media screen and (min-width: 1440px) {
   .logo {
@@ -31,16 +32,23 @@
 .icon-burger {
   stroke: black;
   position: absolute;
-  top: 30px;
+  top: -3px;
   right: 16px;
 }
 @media screen and (min-width: 768px) {
   .icon-burger {
-    right: 27px;
+    right: 11px;
   }
 }
 @media screen and (min-width: 1440px) {
   .icon-burger {
     display: none;
   }
+  .btn-open{
+    display: none;
+  }
+}
+.btn-open{
+  border: none;
+  background-color: transparent;
 }
