@@ -1,18 +1,85 @@
 .rewiews {
+    padding-top: 36px;
+    padding-bottom: 36px;
+    background-color: var(--light-blue);
+}
+@media screen and (min-width:1440px) {
+    .rewiews {
     padding-top: 60px;
     padding-bottom: 60px;
-    background-color: var(--light-blue);
+    }
 }
 .title-rewiew {
 font-family: var(--font-family);
 font-weight: 400;
-font-size: 32px;
-line-height: 1.41;
+font-size: 28px;
+line-height: 1.50;
 text-transform: uppercase;
 color: var(--blue-font);
+margin-bottom: 20px;
 text-align: center;
-margin-bottom: 30px;
 }
+@media screen and (min-width:768px) {
+    .title-rewiew {
+font-size: 32px;
+line-height: 1.41;
+margin-bottom: 30px;
+    }
+}
+.item-rewiews{
+    width: 343px;
+    background-color: var(--white);
+    height: 230px;
+    padding-bottom: 24px;
+}
+.item-rewiews:nth-child(2),
+.item-rewiews:nth-child(3) {
+    display: none;
+}
+
+.img-position {
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+    padding-left: 24px;
+    padding-top: 24px;
+}
+
+.img-position2 {
+    margin-left: 14px;
+    
+}
+
+.names-rewiew {
+font-family: var(--font-family);
+font-weight: 700;
+font-size: 18px;
+line-height: 1.78;
+text-transform: uppercase;
+color: var(--blue-font);
+margin-bottom: 2px;
+}
+
+.span-rewiew {
+font-family: var(--font-family);
+font-weight: 400;
+font-size: 14px;
+line-height: 1.29;
+text-align: center;
+color: var(--blue-font);
+}
+
+.text-rewiew {
+font-family: var(--font-family);
+font-weight: 400;
+font-size: 14px;
+line-height: 1.43;
+color: var(--blue-font);
+width: 296px;
+}
+
+
+/* 
 .list-rewiews {
 display: flex;
 justify-content: center;
@@ -44,6 +111,18 @@ color: var(--blue-font);
 }
 .item-rewiews {
 width: 424px;
+height: 355px;
 padding: 32px;
 background-color: white;
 }
+.rewiews-img {
+
+}
+.img-position {
+    display: flex;
+    margin-bottom: 16px;
+    align-items: center;
+}
+.img-position2 {
+    margin-left: 14px;
+} */
