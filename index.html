@@ -10,8 +10,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto:wdth,wght@75..100,100..900&display=swap" rel="stylesheet">
     
-    <script type="module" crossorigin src="/Minimal/assets/index-4ae537a2.js"></script>
-    <link rel="stylesheet" href="/Minimal/assets/index-4cb90d03.css">
+    <script type="module" crossorigin src="/Minimal/assets/index-4f9058de.js"></script>
+    <link rel="stylesheet" href="/Minimal/assets/index-43a0214f.css">
   </head>
   <body>
     <!-- <section>
@@ -24,35 +24,43 @@
     <header class="header">
   <div class="container header-position">
     <a href="/" class="logo">
-        <svg class="icon-logo" width="127" height="16">
-          <use href="/Minimal/assets/symboldefs-b0884237.svg#icon-logo"></use>
-        </svg>
+      <svg class="icon-logo" width="127" height="16">
+        <use href="/Minimal/assets/symboldefs-b0884237.svg#icon-logo"></use>
+      </svg>
     </a>
     <nav class="nav">
       <ul class="navigation">
         <li class="navigation__item">
-            <a href="#" class="navigation__link">About us</a>
+          <a href="#" class="navigation__link">About us</a>
         </li>
         <li class="navigation__item">
-            <a href="#" class="navigation__link">Our products</a>
+          <a href="#" class="navigation__link">Our products</a>
         </li>
         <li class="navigation__item">
-            <a href="#" class="navigation__link">Prices</a>
+          <a href="#" class="navigation__link">Prices</a>
         </li>
         <li class="navigation__item">
-            <a href="#" class="navigation__link">Bestsellers</a>
+          <a href="#" class="navigation__link">Bestsellers</a>
         </li>
         <li class="navigation__item">
-            <a href="#" class="navigation__link">Reviews</a>
+          <a href="#" class="navigation__link">Reviews</a>
         </li>
         <li class="navigation__item">
-            <a href="#" class="navigation__link">Contacts</a>
+          <a href="#" class="navigation__link">Contacts</a>
         </li>
       </ul>
     </nav>
-      <svg class="icon-burger" width="32" height="32" fill="black">
-     <use href="/Minimal/assets/symboldefs-b0884237.svg#icon-burger"></use>
-   </svg>
+    <button class="btn-open" data-modal-open>
+    <svg
+      class=" menu-toggle icon-burger" 
+      width="32"
+      height="32"
+      fill="black"
+      aria-expanded="false"
+      aria-controls="mobile-menu">
+      <use href="/Minimal/assets/symboldefs-b0884237.svg#icon-burger"></use>
+    </svg>
+    </button>
   </div>
 </header>
 
@@ -88,37 +96,48 @@
         </div>
 </section>
     <section class="meubels">
-    <div class="container section-position">
-        <div class="left"><h2 class="meubels-text">⸺   
- 
-
-About us</h2>
-        <h3 class="meubels-title">Our сraftsmanship: сreating unique handmade furniture</h3>
-        <p class="meubels-text1">Discover the inspiration behind our modern and minimalist designs, and see how we bring them to life through our skilled craftsmanship.</p>
-        <ul class="meubels-list">
-            <li class="meubels-item">
-                <h3 class="meubels-number">5+</h3>
-                <p class="meubels-text2">Years of experience creating handcrafted furniture</p>
-            </li>
-            <li class="meubels-item">
-                <h3 class="meubels-number">100%</h3>
-                <p class="meubels-text2">Sustainably sourced materials used in all of our furniture </p>
-            </li>
-            <li class="meubels-item">
-                <h3 class="meubels-number">500+</h3>
-                <p class="meubels-text2">Unique furniture designs crafted by our skilled artisans</p>
-            </li>
-        </ul>
+  <div class="container section-position">
+    <div class="left">
+      <h2 class="meubels-text">⸺      About us</h2>
+      <h3 class="meubels-title">
+        Our сraftsmanship: сreating unique handmade furniture
+      </h3>
+      <p class="meubels-text1">
+        Discover the inspiration behind our modern and minimalist designs, and
+        see how we bring them to life through our skilled craftsmanship.
+      </p>
+      <ul class="meubels-list">
+        <li class="meubels-item">
+          <span class="meubels-number">5+</span>
+          <p class="meubels-text2">
+            Years of experience creating handcrafted furniture
+          </p>
+        </li>
+        <li class="meubels-item">
+          <span class="meubels-number">100%</span>
+          <p class="meubels-text2">
+            Sustainably sourced materials used in all of our furniture
+          </p>
+        </li>
+        <li class="meubels-item">
+          <span class="meubels-number">500+</span>
+          <p class="meubels-text2">
+            Unique furniture designs crafted by our skilled artisans
+          </p>
+        </li>
+      </ul>
     </div>
-        <div class="right"></div>
-        <picture>
+    </div>
+        <div class="right">
+             <picture>
                      <source srcset="/Minimal/assets/sofa_cushions-bf19b5a6.jpg 1x, /Minimal/assets/sofa_cushions@desktop2x-95bcdd62.jpg " media="(min-width: 1440px)">
                      <source srcset="/Minimal/assets/sofa_cushions-0bdc80f4.jpg 1x, /Minimal/assets/sofa_cushions@tablet2x-399c95e8.jpg 2x" media="(min-width: 768px)">
                      <source srcset="/Minimal/assets/sofa_cushions-42349be2.jpg 1x, /Minimal/assets/sofa_cushions@mobile2x-53d104ae.jpg 2x" media="(min-width: 375px)">
                      <img class="about-img" src="/Minimal/assets/sofa_cushions-bf19b5a6.jpg" alt="Divan">
-                    </picture>
+             </picture>
         </div>
     </section>
+
     <section class="prices">
   <div class="container">
     <ul class="prices__list">
@@ -475,6 +494,46 @@ About us</h2>
   </div>
 </footer>
 
+    <div class="container">
+<div class="backdrop is-hidden" data-modal>
+  <div class="modal">
+    <div class="menu-header">
+    <a href="/" class="logo">
+      <svg class="icon-logo" width="127" height="16">
+        <use href="/Minimal/assets/symboldefs-b0884237.svg#icon-logo"></use>
+      </svg>
+    </a>
+      <button class="btn-close" data-modal-close>
+        <svg class="close-icon" width="32" height="32">
+          <use href="/Minimal/assets/symboldefs-b0884237.svg#icon-cross"></use>
+        </svg>
+      </button>
+    </div>
+    <nav class="mob-navigation">
+      <ul class="mob-nav">
+        <li class="mob-nav__item">
+          <a href="#" class="mob-nav__link">About us</a>
+        </li>
+        <li class="mob-nav__item">
+          <a href="#" class="mob-nav__link">Our products</a>
+        </li>
+        <li class="mob-nav__item">
+          <a href="#" class="mob-nav__link">Prices</a>
+        </li>
+        <li class="mob-nav__item">
+          <a href="#" class="mob-nav__link">Bestsellers</a>
+        </li>
+        <li class="mob-nav__item">
+          <a href="#" class="mob-nav__link">Reviews</a>
+        </li>
+        <li class="mob-nav__item">
+          <a href="#" class="mob-nav__link">Contacts</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</div>
+</div>
     
   </body>
 </html>
