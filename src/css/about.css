@@ -1,4 +1,124 @@
+.meubels {
+  background-color: #f7faff;
+}
+@media screen and (min-width:768px) {
+  .meubels {
+  background-color: #fff;
+}
+}
+.section-position{
+  display: flex;
+  align-items: center;
+}
+.left1 {
+  padding: 64px 0;
+  background-color: #f7faff;
+}
+@media screen and (min-width:768px) {
+  .left1 {
+  padding: 64px 64px;
+  background-color: #f7faff;
+}
+}
+@media screen and (min-width:768px) {
+  .left1 {
+  width: 760px;
+}
+}
+.meubels-text {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--blue-font);
+}
 .meubels-title {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 150%;
+  text-transform: uppercase;
+  color: var(--blue-font);
+  margin: 30px 0;
+}
+.meubels-text1 {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--blue-font);
+  margin-bottom: 30px;
+}
+.meubels-list {
+  width: 170px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (min-width:768px) {
+  .meubels-list{
+    display: flex;
+    width: 100%;
+  }
+}
+.meubels-item {
+  margin-bottom: 30px;
+}
+.meubels-item:last-child {
+  margin-bottom: 0px;
+}
+.meubels-number {
+  display: block;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 150%;
+  text-transform: uppercase;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  color: var(--blue-font);
+}
+.meubels-text2 {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  color: var(--blue-font);
+}
+.about__picture--1 {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .about__picture--1 {
+    display: block;
+    margin-top: 30px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .about__picture--1 {
+    margin-top: 0;
+    margin-left: 24px;
+    height: 540px;
+  }
+}
+.about__picture {
+  width: 375px;
+}
+@media screen and (min-width: 768px) {
+  .about__picture {
+    display: none;
+  }
+}
+/* @media screen and (min-width: 768px) {
+  .about__picture {
+    display: block;
+    width: 706px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+} */
+/* .meubels-title {
 font-family: var(--font-family);
 font-weight: 400;
 font-size: 32px;
@@ -63,4 +183,4 @@ height: 540px;
 }
 .right {
     padding-left: 78px;
-}
+} */
