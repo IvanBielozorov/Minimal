@@ -1,3 +1,16 @@
+.bestsellers {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 64px;
+  max-width: 343px;
+  @media screen and (min-width: 704px) {
+    max-width: 704px;
+    margin-bottom: 100px;
+  }
+    @media screen and (min-width: 1320px) {
+      max-width: 1096px;
+    }
+}
 .bestsellers-title {
   font-family: var(--font-family);
   font-weight: 400;
@@ -8,12 +21,32 @@
   display: flex;
   justify-content: center;
   margin-bottom: 21px;
+
+  @media screen and (min-width: 704px) {
+    font-size: 32px;
+    line-height: 1.41;
+    margin-bottom: 30px;
+  }
 }
 @media screen and (min-width: 704px) {
   .bestsellers-list {
     display: flex;
     row-gap: 32px;
     flex-wrap: wrap;
+
+    @media screen and (min-width: 1320px) {
+      flex-wrap: nowrap;
+      column-gap: 24px;
+    }
+  }
+}
+.bestsellers-item:nth-child(1) {
+  margin-bottom: 30px;
+  @media screen and (min-width: 704px) {
+    margin-bottom: 0;
+  }
+  @media screen and (min-width: 1320px) {
+    min-width: 536px;
   }
 }
 @media screen and (min-width: 704px) {
@@ -21,17 +54,29 @@
     display: flex;
     gap: 32px;
     flex-wrap: wrap;
+    @media screen and (min-width: 704px) {
+      column-gap: 30px;
+      row-gap: 20px;
+    }
   }
 }
 .bestsellers-second-item {
   flex-basis: calc((100% - 32px) / 2);
+  @media screen and (min-width: 1320px) {
+    max-width: 258px;
+    flex-basis: calc((100% - 30px) / 2);
+  }
 }
 .bestsellers-second-item:nth-child(1),
 .bestsellers-second-item:nth-child(2) {
   margin-bottom: 30px;
+
+  @media screen and (min-width: 704px) {
+    margin-bottom: 0;
+  }
 }
-.bestsellers-second-item:nth-child(4),
-.bestsellers-second-item:nth-child(5) {
+.bestsellers-second-item:nth-child(3),
+.bestsellers-second-item:nth-child(4) {
   display: none;
 
   @media screen and (min-width: 704px) {
@@ -46,6 +91,10 @@
   color: var(--blue-font);
   margin-top: 14px;
   margin-bottom: 10px;
+  @media screen and (min-width: 704px) {
+    font-size: 18px;
+    margin-top: 15px;
+  }
 }
 .price {
   font-family: var(--font-family);
@@ -53,4 +102,7 @@
   font-size: 16px;
   line-height: 1.5;
   color: var(--blue-font);
+  @media screen and (min-width: 704px) {
+    font-size: 18px;
+  }
 }
