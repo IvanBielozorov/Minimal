@@ -1,126 +1,135 @@
 .rewiews {
-    padding-top: 36px;
-    padding-bottom: 36px;
-    background-color: var(--light-blue);
+  background-color: var(--light-blue);
 }
-@media screen and (min-width:1320px) {
-    .rewiews {
+.rewiews-position {
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 36px;
+  padding-bottom: 36px;
+  max-width: 343px;
+  @media screen and (min-width: 704px) {
+    max-width: 704px;
+  }
+  @media screen and (min-width: 1320px) {
+    max-width: 1320px;
     padding-top: 60px;
     padding-bottom: 60px;
-    }
+  }
 }
 .title-rewiew {
-font-family: var(--font-family);
-font-weight: 400;
-font-size: 28px;
-line-height: 1.50;
-text-transform: uppercase;
-color: var(--blue-font);
-margin-bottom: 20px;
-text-align: center;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 1.5;
+  text-transform: uppercase;
+  color: var(--blue-font);
+  margin-bottom: 20px;
+  text-align: center;
 }
-@media screen and (min-width:704px) {
-    .title-rewiew {
-font-size: 32px;
-line-height: 1.41;
-margin-bottom: 30px;
-    }
+@media screen and (min-width: 704px) {
+  .title-rewiew {
+    font-size: 32px;
+    line-height: 1.41;
+    margin-bottom: 30px;
+  }
 }
-.item-rewiews{
-    width: 343px;       
-    background-color: var(--white);
-    padding: 32px 32px 39   px 32px;   
-    @media screen and (min-width:1320px) {
-        width: 424px;
-    }
+.item-rewiews {
+  width: 343px;
+  background-color: var(--white);
+  padding: 24px;
+  @media screen and (min-width: 1320px) {
+    width: 424px;
+    padding: 32px;
+  }
 }
 .item-rewiews:nth-child(2),
 .item-rewiews:nth-child(3) {
-    display: none;
+  display: none;
 }
 @media screen and (min-width: 704px) {
-    .item-rewiews:nth-child(2) {
-        display: block;
-    }
+  .item-rewiews:nth-child(2) {
+    display: block;
+  }
 }
 @media screen and (min-width: 1320px) {
-    .item-rewiews:nth-child(3) {
-        display: block;
-    }
+  .item-rewiews:nth-child(3) {
+    display: block;
+  }
 }
 .img-position {
-    display: flex;
-    align-items: center;
-    margin-bottom: 9px; 
-    padding-top: 24px;
-    @media screen and (min-width:704px) {
-        margin-bottom:14px;
-    }
-        @media screen and (min-width:704px) {
-        margin-bottom:16px;
-    }
+  display: flex;
+  align-items: center;
+  margin-bottom: 9px;
+  padding-top: 24px;
+  @media screen and (min-width: 704px) {
+    margin-bottom: 14px;
+  }
+  @media screen and (min-width: 704px) {
+    margin-bottom: 16px;
+  }
 }
 
 .img-position2 {
-    margin-left: 14px;
-    
+  margin-left: 14px;
 }
 
 .names-rewiew {
-font-family: var(--font-family);
-font-weight: 700;
-font-size: 18px;
-line-height: 1.78;
-text-transform: uppercase;
-color: var(--blue-font);
-margin-bottom: 2px;
-@media screen and (min-width:704px)  {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.78;
+  text-transform: uppercase;
+  color: var(--blue-font);
+  margin-bottom: 2px;
+  @media screen and (min-width: 704px) {
     font-size: 20px;
     line-height: 2.25;
     margin-bottom: 4px;
-} 
+  }
 }
 
 .span-rewiew {
-font-family: var(--font-family);
-font-weight: 400;
-font-size: 14px;
-line-height: 1.29;
-text-align: center;
-color: var(--blue-font);
-opacity: 0.8;
-@media screen and (min-width:704px) {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  text-align: center;
+  color: var(--blue-font);
+  opacity: 0.8;
+  @media screen and (min-width: 704px) {
     font-size: 16px;
     line-height: 1.5;
-
+  }
 }
-}
-
 .text-rewiew {
-font-family: var(--font-family);
-font-weight: 400;
-font-size: 14px;
-line-height: 1.43;
-color: var(--blue-font);
-@media screen and (min-width:704px) {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.43;
+  color: var(--blue-font);
+  width: 296px;
+  @media screen and (min-width: 704px) {
     font-size: 18px;
     line-height: 1.5;
-}
-}
-
-@media screen and (min-width: 704px) {
-.list-rewiews {
-display: flex;
-justify-content: center;
-align-items: center;
-column-gap: 16px;
-}
+  }
+  @media screen and (min-width: 1320px) {
+    width: 360px;
+  }
 }
 
 @media screen and (min-width: 704px) {
-    .list-rewiews {
-        column-gap: 24px;
-    }
+  .list-rewiews {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 16px;
+  }
+}
+
+@media screen and (min-width: 704px) {
+  .list-rewiews {
+    column-gap: 24px;
+  }
 }
 /* 
 .list-rewiews {
