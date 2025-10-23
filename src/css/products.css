@@ -1,18 +1,16 @@
 .products {
-  font-size: 24px;
-  text-align: center;
-  margin: 24px 0;
-  font-weight: 700;
-  letter-spacing: 1px;
-  color: #222;
-  text-transform: uppercase;
-  border-bottom: 2px solid #eee;
-  display: inline-block;
-  padding-bottom: 8px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 64px;
+  max-width: 343px;
+  @media screen and (min-width: 704px) {
+    max-width: 704px;
+    margin-bottom: 100px;
+  }
+  @media screen and (min-width: 1320px) {
+    max-width: 1320px;
+  }
 }
-
-
-/* mine */
 .products-title {
   font-family: var(--font-family);
   font-weight: 400;
@@ -20,8 +18,40 @@
   line-height: 1.5;
   text-transform: uppercase;
   color: var(--blue-font);
+  margin-bottom: 33px;
+  display: flex;
+  justify-content: center;
   @media screen and (min-width: 704px) {
     font-size: 32px;
     line-height: 1.41;
+    margin-bottom: 30px;
+  }
+}
+@media screen and (min-width: 704px) {
+  .products-list {
+    display: flex;
+    column-gap: 16px;
+    @media screen and (min-width: 704px) {
+      column-gap: 24px;
+    }
+  }
+}
+.products-item:not(:first-child) {
+  display: none;
+  @media screen and (min-width: 1320px) {
+    display: block;
+  }
+}
+@media screen and (min-width: 704px) {
+  .products-item:nth-child(2) {
+    display: block;
+  }
+}
+.products-text {
+  font-size: 16px;
+  margin-top: 16px;
+  @media screen and (min-width: 704px) {
+    font-size: 18px;
+    margin-top: 15px;
   }
 }
