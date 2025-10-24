@@ -1,26 +1,29 @@
 .meubels {
   background-color: #f7faff;
 }
-@media screen and (min-width:768px) {
+@media screen and (min-width: 704px) {
   .meubels {
   background-color: #fff;
 }
 }
+@media screen and (min-width: 1320px) {
 .section-position{
   display: flex;
   align-items: center;
+}
 }
 .left1 {
   padding: 64px 0;
   background-color: #f7faff;
 }
-@media screen and (min-width:768px) {
+@media screen and (min-width:704px) {
   .left1 {
   padding: 64px 64px;
   background-color: #f7faff;
+  width: 704px;
 }
 }
-@media screen and (min-width:768px) {
+@media screen and (min-width: 1320px) {
   .left1 {
   width: 760px;
 }
@@ -54,14 +57,20 @@
   margin-left: auto;
   margin-right: auto;
 }
-@media screen and (min-width:768px) {
+@media screen and (min-width:704px) {
   .meubels-list{
     display: flex;
     width: 100%;
+    column-gap: 33px;
+  
+  @media screen and (min-width: 1320px) {
+    column-gap: 55px;
   }
+}
 }
 .meubels-item {
   margin-bottom: 30px;
+  width: 170px;
 }
 .meubels-item:last-child {
   margin-bottom: 0px;
@@ -86,27 +95,37 @@
   text-align: center;
   color: var(--blue-font);
 }
-.about__picture--1 {
+/* .about__picture--1 {
   display: none;
-}
-@media screen and (min-width: 768px) {
+} */
+@media screen and (min-width: 704px) {
   .about__picture--1 {
     display: block;
     margin-top: 30px;
   }
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1320px) {
   .about__picture--1 {
     margin-top: 0;
     margin-left: 24px;
     height: 540px;
   }
 }
-.about__picture {
+/* .about__picture {
   width: 375px;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 704px) {
   .about__picture {
     display: none;
   }
+} */
+@media screen and (min-width: 704px) {
+.right {
+  width: 704px;
+}
+}
+@media screen and (min-width: 1320px) {
+  .right {
+  width: 536px;
+}
 }
