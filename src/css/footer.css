@@ -11,7 +11,7 @@
 .logo1 {
   margin-top: 36px;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 704px) {
   .logo1 {
     margin-top: 48px;
   }
@@ -27,13 +27,13 @@
   order: 1;
   margin-bottom: 32px;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 704px) {
   .address__container {
     margin-top: 32px;
     margin-bottom: 64px;
   }
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1320px) {
   .address__container {
     margin-top: 40px;
     margin-bottom: 35px;
@@ -44,7 +44,7 @@
   margin-bottom: 8px;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 704px) {
   .address-list__item:first-child {
     margin-bottom: 24px;
   }
@@ -63,14 +63,14 @@
   margin-top: 36px;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 704px) {
   .footer-navigation {
     position: absolute;
     left: 368px;
   }
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1320px) {
   .footer-navigation {
     display: flex;
     column-gap: 30px;
@@ -81,7 +81,7 @@
 .footer-navigation__item {
   margin-bottom: 8px;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 704px) {
   .footer-navigation__item {
     margin-bottom: 16px;
   }
@@ -99,12 +99,12 @@
   order: 2;
   margin-bottom: 56px;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 704px) {
   .contacts {
     margin-bottom: 40px;
   }
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1320px) {
   .contacts {
     display: flex;
     column-gap: 82px;
@@ -117,7 +117,7 @@
 .contacts__item:first-child {
   margin-bottom: 8px;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 704px) {
   .contacts__item:first-child {
     margin-bottom: 24px;
   }
@@ -125,7 +125,7 @@
     margin-bottom: 24px;
   }
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1320px) {
   .contacts__item:nth-child(2) {
     order: 2;
     width: 100%;
@@ -141,7 +141,7 @@
 .contacts__item:last-child {
   display: none;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 704px) {
   .contacts__item:last-child {
     display: block;
   }
@@ -154,12 +154,12 @@
   display: flex;
   column-gap: 16px;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 704px) {
   .social {
     right: 32px;
   }
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1320px) {
   .social {
     right: 60px;
   }

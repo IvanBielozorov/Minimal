@@ -6,6 +6,12 @@
   right: 0;
   background-color: #fff;
   z-index: 3;
+  width: 375px;
+  margin-left: auto;
+  margin-right: auto;
+  @media screen and (min-width: 704px) {
+    width: 768px;
+  }
 }
 .backdrop.is-hidden {
   opacity: 0;
@@ -15,7 +21,7 @@
   width: 375px;
   position: relative;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 704px) {
   .modal {
     width: 768px;
   }
@@ -24,7 +30,7 @@
   padding: 36px 16px;
   background-color: var(--light-blue);
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 704px) {
   .menu-header {
     padding: 36px 50px;
   }
@@ -38,7 +44,7 @@
   background-color: transparent;
   border: none;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 704px) {
   .btn-close {
     top: 31px;
     right: 50px;

@@ -6,7 +6,7 @@
   display: flex;
   position: relative;
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1320px) {
   .logo {
     margin-right: 558px;
   }
@@ -17,7 +17,7 @@
 .nav {
   display: none;
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1320px) {
   .nav {
     display: block;
   }
@@ -35,12 +35,12 @@
   top: -3px;
   right: 16px;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 704px) {
   .icon-burger {
     right: 11px;
   }
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1320px) {
   .icon-burger {
     display: none;
   }

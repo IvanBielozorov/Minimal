@@ -2,25 +2,25 @@
   padding-top: 64px;
   padding-bottom: 64px;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 704px) {
   .newsletter {
     padding-top: 100px;
     padding-bottom: 100px;
   }
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1320px) {
   .newsletter {
     padding-bottom: 86px;
   }
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1320px) {
   .newsletter-position {
     display: flex;
     margin-left: auto;
     width: 1096px;
   }
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1320px) {
   .newsletter-position {
     display: flex;
   }
@@ -28,12 +28,12 @@
 .newsletter__wrapper {
   margin-bottom: 30px;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 704px) {
   .newsletter__wrapper {
     margin-bottom: 64px;
   }
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 704px) {
   .newsletter__wrapper {
     margin-bottom: 30px;
   }
@@ -49,7 +49,7 @@
   margin-bottom: 20px;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 704px) {
   .newsletter__title {
     font-size: 32px;
     line-height: 1.41;
@@ -64,7 +64,7 @@
   color: var(--blue-font);
   margin-bottom: 30px;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 704px) {
   .newsletter__text {
     font-size: 18px;
     line-height: 1.5;
@@ -91,7 +91,7 @@
   height: 50px;
   margin-bottom: 20px;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 704px) {
   .newsletter__input {
     width: 536px;
   }
@@ -111,7 +111,7 @@
   line-height: 150%;
   color: #7a7a7a;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 704px) {
   .newsletter__span {
     font-size: 18px;
   }
@@ -128,8 +128,15 @@
   color: var(--white);
   margin-bottom: 30px;
 }
-@media screen and (min-width: 768px) {
+/* @media screen and (min-width: 704px) {
   .newsletter__span {
-    /* margin-bottom: 64px; */
+    margin-bottom: 64px;
+  }
+} */
+@media screen and (min-width: 1320px){
+  .newsletter__picture {
+    margin-left: 100px;
+    min-width: 460px;
+    height: 410px;
   }
 }
