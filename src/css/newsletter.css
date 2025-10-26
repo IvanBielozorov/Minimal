@@ -100,7 +100,6 @@
   border: 1px solid var(--dark-grey);
   width: 25px;
   height: 25px;
-  /* margin-bottom: 30px; */
   margin-right: 8px;
 }
 
@@ -127,12 +126,8 @@
   line-height: 150%;
   color: var(--white);
   margin-bottom: 30px;
+  cursor: pointer;
 }
-/* @media screen and (min-width: 704px) {
-  .newsletter__span {
-    margin-bottom: 64px;
-  }
-} */
 @media screen and (min-width: 1320px){
   .newsletter__picture {
     margin-left: 100px;

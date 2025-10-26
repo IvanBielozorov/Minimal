@@ -1,6 +1,15 @@
 .footer {
   background-color: #0a224a;
   padding: 16px 0;
+  max-width: 375px;
+  margin-left: auto;
+  margin-right: auto;
+  @media screen and (min-width: 704px) {
+    max-width: 768px;
+  }
+  @media screen and (min-width: 1320px) {
+    max-width: 1440px;
+  }
 }
 .footer-content {
   position: relative;
@@ -16,7 +25,7 @@
     margin-top: 48px;
   }
 }
-.icon-logo1{
+.icon-logo1 {
   fill: white;
 }
 .left {

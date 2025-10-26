@@ -61,9 +61,14 @@
 }
 .mob-navigation {
   margin-top: 114px;
+  margin-bottom: 365px;
   width: 120px;
   margin-left: auto;
   margin-right: auto;
+  @media screen and (min-width: 704px){
+    margin-top: 150px;   
+    margin-bottom: 451px; 
+  }
 }
 .mob-nav__item {
   margin-bottom: 30px;

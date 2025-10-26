@@ -1,6 +1,15 @@
 .header {
   padding: 36px 0;
   background-color: var(--light-blue);
+  max-width: 375px;
+  margin-left: auto;
+  margin-right: auto;
+  @media screen and (min-width: 704px) {
+    max-width: 768px;
+  }
+  @media screen and (min-width: 1320px) {
+    max-width: 1440px;
+  }
 }
 .header-position {
   display: flex;

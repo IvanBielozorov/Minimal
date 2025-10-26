@@ -84,6 +84,7 @@
   font-size: 16px;
   color: var(--white);
   background-color: var(--blue-font);
+  cursor: pointer;
   @media screen and (min-width: 704px) {
     padding: 17px 65px;
     height: 50px;
